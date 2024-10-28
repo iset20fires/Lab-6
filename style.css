@@ -1,0 +1,41 @@
+.static-box {
+    background-color: pink;
+    color: purple;
+    height: 100px;
+    width: 100px;
+    border: solid purple 4px;
+    position: static;
+}
+
+.relative-box {
+    background-color: gold;
+    color: goldenrod;
+    height: 100px;
+    width: 100px;
+    border: solid goldenrod 4px;
+    position: relative;
+    transform: translate(20px, 30px);
+}
+
+.absolute-box {
+    background-color: lightgreen;
+    color: green;
+    height: 100px;
+    width: 100px;
+    border: solid green 4px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.fixed-box {
+    background-color: lightpink;
+    color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+    border: solid cornflowerblue 4px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
